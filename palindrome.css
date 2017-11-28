@@ -1,0 +1,38 @@
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper,.submit_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.button_click{
+
+  margin-top: 20px;
+width: 100px;
+border: none;
+height: 40px;
+border-radius: 10px;
+font-size: 20px;
+}
+
+.word_wrapper{
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  color:red;
+  margin-top: 10px;
+}
